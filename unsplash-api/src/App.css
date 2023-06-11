@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+.mydiv {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 7px;
+  box-shadow: 1px 1px 5px gray;
+  padding: 10px;
+  align-items: center;
+  border-radius: 10px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item {
+  width: 30%;
+  margin: 5px;
+}
+.btn {
+  padding: 5px;
+    border-radius: 3px;
+    border: none;
+    background: #0A1178;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    width: 60px;
+    border-radius: 15px;
+}
+.btn:hover {
+  background: #0000FF;
+}
+
